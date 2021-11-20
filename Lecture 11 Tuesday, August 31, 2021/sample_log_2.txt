@@ -1,0 +1,1 @@
+Hello Everyone!It is my first attempt to write to a file in Python.I'll first open the file and then write.Finally, I'll close it.

@@ -1,0 +1,8 @@
+Monday
+Tuesday 
+Name of the file:  foo.txt
+India is my country 
+
+
+-----
+Now the file has more content!
