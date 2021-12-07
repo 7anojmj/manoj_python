@@ -1,0 +1,83 @@
+<html>
+    <title>Marksheet Generator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    h1{
+text-align:center;
+}
+</style>
+
+
+    <body >
+        <div >
+            <td align="center">
+            <header>
+                <h1><b>Marksheet Generator</b></h1>
+            </header>
+             </td >
+            <form class="w3-container w3-center" method="post" enctype=multipart/form-data >
+                <table border=0 align="center">
+                    <tr>
+                        <td><br>Browse for masters_roll CSV</td>
+                        <td left-padding= 10><br>&nbsp;&nbsp;<input type="file" name="upload_1" v></td>
+                    </tr>
+                    <tr>
+                        <td><br>Browse for Responses CSV</td>
+                        <td left-padding= 10><br>&nbsp;&nbsp;<input type="file" name="upload_2"></td>
+                    </tr>
+                    <tr>
+                        <div class= "form-group">
+                            <td><br><label>Marks for Correct Ans</label></td>
+                            <td left-padding= 10><br>&nbsp;&nbsp;<input  class="form-control" type="number"name="correct" ></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class= "form-group">
+                            <td><br><label>-ve Marks for Wrong Ans</label></td>
+                            <td left-padding= 10><br>&nbsp;&nbsp;<input  class="form-control" type="number" name="wrong" ></td>
+                        </div>
+                    </tr>
+                </table>
+                <br>
+
+                <table border=0 align="center">
+                    <tr>
+                        <td align="center">
+                            <div>
+                                <input type=submit name = "action" value= "Generate Roll number wise Marksheet">
+                            </div>
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <div>
+                                <input type=submit name = "action" value= "Generate Concise Marksheet with Roll Num, Obtained Marks, marks after negative">
+                            </div>
+                            <br>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="center">
+                            <div>
+                                <input type=submit name = "action" value= "Send Email">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+            </form>
+
+        </div>
+
+    
+    </body>
+
+</html>
+
